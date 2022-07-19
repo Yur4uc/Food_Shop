@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+
+</head>
+<body>
+    
+<!-- header section starts -->
+
+<header class="header">
+
+    <section class="flex">
+
+        <a href="home.html" class="logo">yum-yum 😋</a>
+
+        <nav class="navbar">
+            <a href="home.html">home</a>
+            <a href="menu.html">menu</a>
+            <a href="contact.html">contact</a>
+        </nav>
+
+        <div class="icons">
+            <a href="cart.html"><i class="fas fa-shopping-cart"></i><span></span>(3)</a>
+
+        </div>
+
+    </section>
+
+</header>    
+
+
+<!-- hero section starts -->
+
+<section class="hero">
+
+    <div class="swipe hero-slider">
+
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>order line</span>
+                    <h3>delicious pizza</h3>
+                    <a href="menu.html" class="btn">see menus</a>
+                </div>
+                <div class="images">
+                    <img src="img/home-img-1.png" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>order line</span>
+                    <h3>chezzy hamburger</h3>
+                    <a href="menu.html" class="btn">see menus</a>
+                </div>
+                <div class="images">
+                    <img src="img/home-img-2.png" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>order line</span>
+                    <h3>eosted chicken</h3>
+                    <a href="menu.html" class="btn">see menus</a>
+                </div>
+                <div class="images">
+                    <img src="img/home-img-3.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+
+
+<!--category section -->
+
+
+<section class="category">
+
+<h1 class="title">food category</h1>
+
+<div class="box-container">
+
+    <a href="#" class="box">
+        <img src="img/cat-1.png" alt="">
+        <h3>fast food</h3>
+    </a>
+
+    <a href="" class="box">
+        <img src="img/cat-2.png" alt="">
+        <h3>main dishes</h3>
+    </a>
+
+    <a href="" class="box">
+        <img src="img/cat-3.png" alt="">
+        <h3>drinks</h3>
+    </a>
+
+    <a href="" class="box">
+        <img src="img/cat-4.png" alt="">
+        <h3>desserts</h3>
+    </a>
+
+</div>
+
+</section>
+
+
+
+<!-- home product section  -->
+
+<section class="products">
+
+    <h1 class="title">latest dishes</h1>
+ 
+    <div class="box-container">
+ 
+       <form accept="" method="post" class="box">
+          <button class="fas fa-shopping-cart" type="button" name="add_to_cart"></button>
+          <img src="upploaded_img/pizza-1.png" alt="">
+          <div class="name">delicious pizza 01</div>
+          <div class="flex">
+             <div class="price"><span>$</span>3<span>/-</span></div>
+             <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+          </div>
+       </form>
+ 
+       <form accept="" method="post" class="box">
+          <button class="fas fa-shopping-cart" type="button" name="add_to_cart"></button>
+          <img src="upploaded_img/dish-1.png" alt="">
+          <div class="name">main dish 01</div>
+          <div class="flex">
+             <div class="price"><span>$</span>3<span>/-</span></div>
+             <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+          </div>
+       </form>
+ 
+       <form accept="" method="post" class="box">
+          <button class="fas fa-shopping-cart" type="button" name="add_to_cart"></button>
+          <img src="upploaded_img/burger-1.png" alt="">
+          <div class="name">chezzy hamburger 01</div>
+          <div class="flex">
+             <div class="price"><span>$</span>3<span>/-</span></div>
+             <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+          </div>
+       </form>
+ 
+       <form accept="" method="post" class="box">
+          <button class="fas fa-shopping-cart" type="button" name="add_to_cart"></button>
+          <img src="upploaded_img/dessert-1.png" alt="">
+          <div class="name">delicious dessert 01</div>
+          <div class="flex">
+             <div class="price"><span>$</span>3<span>/-</span></div>
+             <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+          </div>
+       </form>
+ 
+       <form accept="" method="post" class="box">
+          <button class="fas fa-shopping-cart" type="button" name="add_to_cart"></button>
+          <img src="upploaded_img/drink-1.png" alt="">
+          <div class="name">fresh drink 01</div>
+          <div class="flex">
+             <div class="price"><span>$</span>3<span>/-</span></div>
+             <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+          </div>
+       </form>
+ 
+       <form accept="" method="post" class="box">
+          <button class="fas fa-shopping-cart" type="button" name="add_to_cart"></button>
+          <img src="upploaded_img/dish-2.png" alt="">
+          <div class="name">main dish 02</div>
+          <div class="flex">
+             <div class="price"><span>$</span>3<span>/-</span></div>
+             <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+          </div>
+       </form>
+ 
+    </div>
+ 
+    <div class="more-btn">
+       <a href="menu.html" class="btn">veiw all</a>
+    </div>
+ 
+ </section>
+ 
+
+
+
+
+
+
+
+<!-- footer section  -->
+
+<footer class="footer">
+
+    <section class="grid">
+        <div class="box">
+            <img src="img/email-icon.png" alt="">
+            <h3>our email</h3>
+            <a href="#">asdasd@gmail.com</a>
+        </div>
+
+        <div class="box">
+            <img src="img/clock-icon.png" alt="">
+            <h3>opening hours</h3>
+            <p>09:00 to 23:00</p>
+        </div>
+
+        <div class="box">
+            <img src="img/map-icon.png" alt="">
+            <h3>our address</h3>
+            <a href="#">Ukraine, Lviv</a>
+        </div>
+
+        <div class="box">
+            <img src="img/phone-icon.png" alt="">
+            <h3>our number</h3>
+            <a href="tel:123456789">123-456-7890</a>
+        </div>
+    </section>
+
+</footer>
+
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+
+<script> // анімація для карток взята з swiperjs.com
+
+let swiper = new Swiper(".hero-slider", {
+    loop:true,
+    grabCursor: true,
+    effect: "flip",
+    pagination: {
+        el: ".swiper-pagination",
+        clickable:true,
+    },
+});
+
+</script>
+
+</body>
+</html>
